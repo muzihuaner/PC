@@ -1,0 +1,152 @@
+[
+  {
+    "id": "zhihu-pc",
+    "name": "知乎 - 电脑装机",
+    "url": "https://www.zhihu.com/search?type=content&q=%E7%94%B5%E8%84%91%E8%A3%85%E6%9C%BA",
+    "description": "知乎上关于电脑装机的专业讨论和经验分享",
+    "category": "社区",
+    "icon": "https://static.zhihu.com/heifetz/favicon.ico",
+    "tags": ["装机", "经验分享", "问答社区"],
+    "popularity": 95000
+  },
+  {
+    "id": "chiphell",
+    "name": "Chiphell",
+    "url": "https://www.chiphell.com/",
+    "description": "高端硬件玩家社区，专业的硬件评测和讨论",
+    "category": "社区",
+    "icon": "https://static.chiphell.com/favicon.ico",
+    "tags": ["硬件评测", "高端玩家", "装机交流"],
+    "popularity": 78000
+  },
+  {
+    "id": "pconline",
+    "name": "太平洋电脑网",
+    "url": "https://www.pconline.com.cn/",
+    "description": "专业的电脑硬件资讯和评测网站",
+    "category": "资讯",
+    "icon": "https://img.pconline.com.cn/images/pconline/favicon.ico",
+    "tags": ["硬件评测", "行情报价", "新品资讯"],
+    "popularity": 85000
+  },
+  {
+    "id": "zol",
+    "name": "中关村在线",
+    "url": "https://www.zol.com.cn/",
+    "description": "权威的硬件评测和装机配置推荐",
+    "category": "资讯",
+    "icon": "https://icon.zol-img.com.cn/zol/favicon.ico",
+    "tags": ["硬件评测", "装机推荐", "价格查询"],
+    "popularity": 92000
+  },
+  {
+    "id": "jd-hardware",
+    "name": "京东硬件频道",
+    "url": "https://diy.jd.com/",
+    "description": "正品保障的电脑硬件购买平台",
+    "category": "购物",
+    "icon": "https://www.jd.com/favicon.ico",
+    "tags": ["正品保障", "价格对比", "购买渠道"],
+    "popularity": 98000
+  },
+  {
+    "id": "tmall-hardware",
+    "name": "天猫硬件旗舰店",
+    "url": "https://www.tmall.com/",
+    "description": "品牌官方旗舰店的硬件购买平台",
+    "category": "购物",
+    "icon": "https://www.tmall.com/favicon.ico",
+    "tags": ["品牌官方", "售后服务", "正品保障"],
+    "popularity": 89000
+  },
+  {
+    "id": "bilibili-pc",
+    "name": "B站装机区",
+    "url": "https://search.bilibili.com/all?keyword=%E8%A3%85%E6%9C%BA",
+    "description": "装机教程和硬件评测视频分享平台",
+    "category": "视频",
+    "icon": "https://www.bilibili.com/favicon.ico",
+    "tags": ["装机教程", "硬件评测", "视频分享"],
+    "popularity": 88000
+  },
+  {
+    "id": "youtube-pc",
+    "name": "YouTube装机频道",
+    "url": "https://www.youtube.com/results?search_query=PC+building",
+    "description": "国际知名的装机教程和硬件评测视频",
+    "category": "视频",
+    "icon": "https://www.youtube.com/favicon.ico",
+    "tags": ["国际视野", "专业评测", "装机教程"],
+    "popularity": 96000
+  },
+  {
+    "id": "zhuanggeji",
+    "name": "装个机",
+    "url": "https://zhuangit.ababtools.com/",
+    "description": "专业电脑重装系统指南教程网站，提供Windows/Mac重装系统教程、一键重装系统工具、U盘启动盘制作方法、PE工具、系统激活工具，助您轻松完成电脑系统安装",
+    "category": "视频",
+    "icon": "https://zhuangit.ababtools.com/favicon.ico",
+    "tags": ["专业教程", "一键重装", "系统激活"],
+    "popularity": 96000
+  },
+  {
+    "id": "reddit-buildapc",
+    "name": "Reddit BuildAPC",
+    "url": "https://www.reddit.com/r/buildapc/",
+    "description": "Reddit装机社区，全球装机爱好者交流平台",
+    "category": "社区",
+    "icon": "https://www.redditstatic.com/desktop2x/img/favicon/favicon-32x32.png",
+    "tags": ["国际社区", "装机建议", "经验交流"],
+    "popularity": 76000
+  },
+  {
+    "id": "pcpp",
+    "name": "PCPartPicker",
+    "url": "https://pcpartpicker.com/",
+    "description": "专业的装机配置规划和兼容性检查工具",
+    "category": "工具",
+    "icon": "https://pcpartpicker.com/static/favicon.ico",
+    "tags": ["配置规划", "兼容性检查", "价格追踪"],
+    "popularity": 94000
+  },
+  {
+    "id": "userbenchmark",
+    "name": "UserBenchmark",
+    "url": "https://userbenchmark.com/",
+    "description": "硬件性能对比和跑分测试平台",
+    "category": "工具",
+    "icon": "https://userbenchmark.com/favicon.ico",
+    "tags": ["性能对比", "跑分测试", "硬件排行"],
+    "popularity": 82000
+  },
+  {
+    "id": "techpowerup",
+    "name": "TechPowerUp",
+    "url": "https://www.techpowerup.com/",
+    "description": "深度硬件评测和技术分析网站",
+    "category": "资讯",
+    "icon": "https://www.techpowerup.com/favicon.ico",
+    "tags": ["深度评测", "技术分析", "显卡数据库"],
+    "popularity": 81000
+  },
+  {
+    "id": "screen-test",
+    "name": "在线屏幕测试",
+    "url": "https://screen.quickso.cn/",
+    "description": "在线测试你的屏幕分辨率和刷新率",
+    "category": "工具",
+    "icon": "https://screen.quickso.cn/favicon.ico",
+    "tags": ["屏幕测试", "分辨率", "刷新率"],
+    "popularity": 81000
+  },
+  {
+    "id": "kms",
+    "name": "KMS激活工具",
+    "url": "https://kms.cangshui.net/",
+    "description": "KMS激活工具，一键激活Windows/Linux/Mac系统",
+    "category": "工具",
+    "icon": "https://kms.cangshui.net/favicon.ico",
+    "tags": ["KMS激活", "Windows激活", "Mac激活"],
+    "popularity": 81000
+  }
+]

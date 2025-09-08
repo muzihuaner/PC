@@ -1,0 +1,186 @@
+{
+  "cpu": [
+    {
+      "id": "cpu-1",
+      "name": "Intel Core i5-13600K",
+      "price": 2499,
+      "specs": "14核20线程 3.5GHz",
+      "socket": "LGA1700",
+      "tdp": 125
+    },
+    {
+      "id": "cpu-2",
+      "name": "AMD Ryzen 7 7800X3D",
+      "price": 2999,
+      "specs": "8核16线程 4.2GHz",
+      "socket": "AM5",
+      "tdp": 120
+    },
+    {
+      "id": "cpu-3",
+      "name": "Intel Core i7-13700K",
+      "price": 3299,
+      "specs": "16核24线程 3.4GHz",
+      "socket": "LGA1700",
+      "tdp": 125
+    },
+    {
+      "id": "cpu-4",
+      "name": "AMD Ryzen 5 7600X",
+      "price": 1699,
+      "specs": "6核12线程 4.7GHz",
+      "socket": "AM5",
+      "tdp": 105
+    }
+  ],
+  "gpu": [
+    {
+      "id": "gpu-1",
+      "name": "NVIDIA RTX 4070 Ti",
+      "price": 5999,
+      "specs": "12GB GDDR6X",
+      "recommendedPsu": 700
+    },
+    {
+      "id": "gpu-2",
+      "name": "AMD RX 7800 XT",
+      "price": 4299,
+      "specs": "16GB GDDR6",
+      "recommendedPsu": 650
+    },
+    {
+      "id": "gpu-3",
+      "name": "NVIDIA RTX 4060",
+      "price": 2399,
+      "specs": "8GB GDDR6",
+      "recommendedPsu": 550
+    },
+    {
+      "id": "gpu-4",
+      "name": "AMD RX 7600",
+      "price": 1899,
+      "specs": "8GB GDDR6",
+      "recommendedPsu": 500
+    }
+  ],
+  "ram": [
+    {
+      "id": "ram-1",
+      "name": "金士顿 16GB DDR5-5600",
+      "price": 499,
+      "specs": "16GB (2x8GB) DDR5-5600",
+      "type": "DDR5"
+    },
+    {
+      "id": "ram-2",
+      "name": "海盗船 32GB DDR5-6000",
+      "price": 899,
+      "specs": "32GB (2x16GB) DDR5-6000",
+      "type": "DDR5"
+    },
+    {
+      "id": "ram-3",
+      "name": "芝奇 16GB DDR4-3200",
+      "price": 299,
+      "specs": "16GB (2x8GB) DDR4-3200",
+      "type": "DDR4"
+    },
+    {
+      "id": "ram-4",
+      "name": "威刚 32GB DDR4-3600",
+      "price": 599,
+      "specs": "32GB (2x16GB) DDR4-3600",
+      "type": "DDR4"
+    }
+  ],
+  "storage": [
+    {
+      "id": "storage-1",
+      "name": "三星 980 PRO 1TB",
+      "price": 699,
+      "specs": "1TB NVMe M.2",
+      "type": "NVMe"
+    },
+    {
+      "id": "storage-2",
+      "name": "西数 SN850X 2TB",
+      "price": 1299,
+      "specs": "2TB NVMe M.2",
+      "type": "NVMe"
+    },
+    {
+      "id": "storage-3",
+      "name": "希捷 酷鱼 2TB",
+      "price": 399,
+      "specs": "2TB 7200RPM HDD",
+      "type": "HDD"
+    },
+    {
+      "id": "storage-4",
+      "name": "金士顿 NV2 500GB",
+      "price": 249,
+      "specs": "500GB NVMe M.2",
+      "type": "NVMe"
+    }
+  ],
+  "psu": [
+    {
+      "id": "psu-1",
+      "name": "海韵 Focus GX-750",
+      "price": 899,
+      "specs": "750W 80+ Gold",
+      "wattage": 750
+    },
+    {
+      "id": "psu-2",
+      "name": "振华 冰山金蝶 650W",
+      "price": 499,
+      "specs": "650W 80+ Gold",
+      "wattage": 650
+    },
+    {
+      "id": "psu-3",
+      "name": "航嘉 MVP K750",
+      "price": 399,
+      "specs": "750W 80+ Bronze",
+      "wattage": 750
+    },
+    {
+      "id": "psu-4",
+      "name": "酷冷至尊 V850",
+      "price": 699,
+      "specs": "850W 80+ Gold",
+      "wattage": 850
+    }
+  ],
+  "motherboard": [
+    {
+      "id": "mb-1",
+      "name": "华硕 TUF Gaming B760-PLUS",
+      "price": 1299,
+      "specs": "ATX, DDR5, PCIe 5.0",
+      "socket": "LGA1700"
+    },
+    {
+      "id": "mb-2",
+      "name": "微星 B650 Gaming Plus",
+      "price": 1199,
+      "specs": "ATX, DDR5, PCIe 4.0",
+      "socket": "AM5"
+    },
+    {
+      "id": "mb-3",
+      "name": "华擎 B660M Pro RS",
+      "price": 699,
+      "specs": "mATX, DDR4, PCIe 4.0",
+      "socket": "LGA1700"
+    },
+    {
+      "id": "mb-4",
+      "name": "技嘉 A620M Gaming X",
+      "price": 599,
+      "specs": "mATX, DDR5, PCIe 4.0",
+      "socket": "AM5"
+    }
+  ]
+}

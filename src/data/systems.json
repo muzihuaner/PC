@@ -1,0 +1,88 @@
+{
+  "windows": [
+    {
+      "id": "win11",
+      "name": "Windows 11",
+      "version": "23H2 官方原版",
+      "size": "5.8GB",
+      "releaseDate": "2025",
+      "requirements": "8GB RAM, 64GB 存储",
+      "downloadUrl": "https://www.microsoft.com/zh-cn/windows/get-windows-11",
+      "officialUrl": "https://www.microsoft.com/zh-cn/windows/windows-11"
+    },
+    {
+      "id": "win10",
+      "name": "Windows 10",
+      "version": "22H2 官方原版",
+      "size": "5.5GB",
+      "releaseDate": "2025",
+      "requirements": "4GB RAM, 32GB 存储",
+      "downloadUrl": "https://www.microsoft.com/zh-cn/software-download/windows10",
+      "officialUrl": "https://www.microsoft.com/zh-cn/download/windows"
+    }
+  ],
+  "linux": [
+    {
+      "id": "ubuntu",
+      "name": "Ubuntu",
+      "version": "24.04 LTS",
+      "size": "4.6GB",
+      "releaseDate": "2025",
+      "requirements": "4GB RAM, 25GB 存储",
+      "downloadUrl": "https://cn.ubuntu.com/download/desktop",
+      "officialUrl": "https://cn.ubuntu.com/desktop"
+    },
+    {
+      "id": "fedora",
+      "name": "Fedora",
+      "version": "42 Workstation",
+      "size": "2.0GB",
+      "releaseDate": "2025",
+      "requirements": "4GB RAM, 20GB 存储",
+      "downloadUrl": "https://fedoraproject.org/workstation/download",
+      "officialUrl": "https://fedoraproject.org/"
+    },
+    {
+      "id": "deepin",
+      "name": "Deepin",
+      "version": "25",
+      "size": "4.7GB",
+      "releaseDate": "2025",
+      "requirements": "4GB RAM, 60GB 存储",
+      "downloadUrl": "https://www.deepin.org/zh/download/",
+      "officialUrl": "https://www.deepin.org/index/zh"
+    },
+    {
+      "id": "arch",
+      "name": "Arch Linux",
+      "version": "2025",
+      "size": "1.0GB",
+      "releaseDate": "2024-01",
+      "requirements": "512MB RAM, 2GB 存储",
+      "downloadUrl": "https://archlinux.org/download/",
+      "officialUrl": "https://archlinux.org"
+    }
+  ],
+  "macos": [
+    {
+      "id": "macos-sonoma",
+      "name": "macOS Sonoma",
+      "version": "14.7.7",
+      "size": "12.1 GB",
+      "releaseDate": "2025",
+      "requirements": "8GB RAM, 35GB 存储",
+      "downloadUrl": "https://apps.apple.com/us/app/macos-sonoma/id6450717509",
+      "officialUrl": "https://www.apple.com/macos/sonoma"
+    },
+    {
+      "id": "macos-ventura",
+      "name": "macOS Ventura",
+      "version": "13.7.7",
+      "size": "12.1 GB",
+      "releaseDate": "2025",
+      "requirements": "8GB RAM, 35GB 存储",
+      "downloadUrl": "https://apps.apple.com/us/app/macos-ventura/id1638787999",
+      "officialUrl": "https://www.apple.com/macos/ventura"
+    }
+  ]
+}
