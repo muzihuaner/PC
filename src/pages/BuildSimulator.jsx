@@ -421,7 +421,12 @@ const BuildSimulator = () => {
                   value={newComponent.name}
                   onChange={(e) => setNewComponent(prev => ({ ...prev, name: e.target.value }))}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
-                  placeholder="例如：Intel Core i9-13900K"
+                  placeholder={showAddForm === 'cpu' ? '例如：Intel Core i9-13900K' : 
+                           showAddForm === 'gpu' ? '例如：NVIDIA RTX 4090' :
+                           showAddForm === 'ram' ? '例如：金士顿 DDR4 3200MHz' :
+                           showAddForm === 'storage' ? '例如：三星 980 Pro 1TB' :
+                           showAddForm === 'psu' ? '例如：海盗船 RM850x' :
+                           '例如：华硕 ROG Strix Z790-E'}
                 />
               </div>
               
@@ -432,7 +437,12 @@ const BuildSimulator = () => {
                   value={newComponent.price}
                   onChange={(e) => setNewComponent(prev => ({ ...prev, price: e.target.value }))}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
-                  placeholder="例如：3999"
+                  placeholder={showAddForm === 'cpu' ? '例如：3999' : 
+                           showAddForm === 'gpu' ? '例如：12999' :
+                           showAddForm === 'ram' ? '例如：599' :
+                           showAddForm === 'storage' ? '例如：899' :
+                           showAddForm === 'psu' ? '例如：899' :
+                           '例如：2999'}
                 />
               </div>
               
@@ -443,7 +453,12 @@ const BuildSimulator = () => {
                   value={newComponent.specs}
                   onChange={(e) => setNewComponent(prev => ({ ...prev, specs: e.target.value }))}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
-                  placeholder="例如：24核32线程 3.0GHz"
+                  placeholder={showAddForm === 'cpu' ? '例如：24核32线程 3.0GHz 36MB缓存' : 
+                           showAddForm === 'gpu' ? '例如：24GB GDDR6X 2520MHz 384-bit' :
+                           showAddForm === 'ram' ? '例如：16GB(8GB×2) DDR4 3200 CL16' :
+                           showAddForm === 'storage' ? '例如：1TB NVMe PCIe4.0 7000MB/s' :
+                           showAddForm === 'psu' ? '例如：850W 80+金牌 全模组' :
+                           '例如：Z790芯片组 DDR5 WiFi6E 2.5G网口'}
                 />
               </div>
               
@@ -455,7 +470,8 @@ const BuildSimulator = () => {
                     value={newComponent.socket}
                     onChange={(e) => setNewComponent(prev => ({ ...prev, socket: e.target.value }))}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
-                    placeholder="例如：LGA1700"
+                    placeholder={showAddForm === 'cpu' ? '例如：LGA1700' : 
+                           '例如：LGA1700/AM5/TR4'}
                   />
                 </div>
               )}
@@ -473,7 +489,8 @@ const BuildSimulator = () => {
                       [showAddForm === 'cpu' ? 'tdp' : 'recommendedPsu']: e.target.value
                     }))}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
-                    placeholder="例如：125"
+                    placeholder={showAddForm === 'cpu' ? '例如：125' : 
+                           '例如：850'}
                   />
                 </div>
               )}
