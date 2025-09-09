@@ -1,5 +1,6 @@
-import { Outlet, Link, useLocation } from 'react-router-dom'
-import { Cpu, Download, Home, Settings, BookOpen } from 'lucide-react'
+import { Cpu, Download, Home, Settings, BookOpen, Github } from 'lucide-react'
+import { Link, useLocation } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 
 const Layout = () => {
   const location = useLocation()
@@ -42,6 +43,15 @@ const Layout = () => {
                   </Link>
                 )
               })}
+              <a
+                href="https://github.com/muzihuaner/PC/issues"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center px-3 py-2 rounded-md text-sm font-medium text-gray-500 hover:text-gray-700 transition-colors"
+              >
+                <Github className="h-4 w-4 mr-2" />
+                Issues
+              </a>
             </div>
           </div>
         </div>
