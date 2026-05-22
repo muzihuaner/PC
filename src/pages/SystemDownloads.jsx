@@ -125,6 +125,15 @@ const SystemDownloads = () => {
               <h4 className="font-semibold text-gray-900 mb-1">Massgrave</h4>
               <p className="text-sm text-gray-600">提供Windows正版安装镜像和激活相关信息</p>
             </a>
+             <a
+              href="https://hellowindows.cn/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-4 border border-gray-200 rounded-lg hover:border-primary-500 hover:shadow-md transition-all"
+            >
+              <h4 className="font-semibold text-gray-900 mb-1">HelloWindows</h4>
+              <p className="text-sm text-gray-600">原版Windows系统下载仓储站</p>
+            </a>
           </div>
           <p className="text-sm text-gray-500 mt-4">
             提示：第三方网站提供的镜像仅供参考，请验证文件完整性后再使用
